@@ -1,0 +1,222 @@
+
+
+
+.LogoUnicruz{
+    position: absolute;
+    left:100px;
+    top: 75px;
+    width: 250px;
+    padding: 1px;
+    z-index: 1;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Mono;
+}
+
+body{
+    background: url("Imagens CSS HTML/background 2.PNG");
+    background-size:cover;
+display: flex;
+justify-content: center;
+min-height: 75vh;
+flex-direction: column;
+gap: 30px;
+}
+
+.invi-box{
+    left: 14.5px;
+    top: 20vh;
+    position:absolute;
+    width: 420px;
+    height: 490px;
+    background: #822faf;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+
+.inputbox{
+    position: relative;
+    top: 100px;
+    width: 350px;
+    left: 50px;
+    z-index: 1;
+}
+
+.inputbox input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255,255,255, .25);
+    border-radius:  5px;
+    outline: none;
+    font-size: 1.25em;
+    background: #822faf;
+    z-index: 1;
+    
+}
+.inputbox span{
+    position:absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1.25em;
+    transition: 0.5s;
+    z-index: 1;
+}
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span{
+    transform: translatex(10px) translatey(-8px);
+    font-size: 0.80em;
+    border-left: 1px solid white;   
+    border-right: 1px solid white;
+    padding: 0 10px;
+    letter-spacing: 0.2em;
+    z-index: 1;
+    background: #822faf;
+}
+
+.inputbox input:valid ,
+.inputbox input:focus {
+    border: 1px solid white;
+    z-index: 1;
+}
+
+.send{
+    font-family:sans-serif;
+    width: 120px; 
+    position: absolute;
+    left: 280px;
+    top:500px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius:35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.95;
+
+    z-index: 1;
+
+}
+.lembrar-senha{
+    font-family:sans-serif;
+    position: absolute;
+    top: 500px; 
+    width: 140px;
+    background-color:  rgb(255, 255, 255);
+    padding: 0 10px;
+    border-radius: 35px;
+    left: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-weight: 600;
+    z-index: 1;
+}
+.Esquecer a {
+    font-family:sans-serif;
+    position: absolute;
+    top: 640px; 
+    width: 170px;
+    padding: 0 10px;
+    border-radius: 35px;
+    left: 250px;
+    font-weight: 600;
+    text-decoration: none;
+    z-index: 1;
+    color: black;
+}
+.fundo{
+    position:absolute;
+    top: 50px;
+    left: 1150px;
+    width: 750px;
+    height: 845px;
+    background: rgb(235, 235, 235);
+    opacity: 0.90;
+    border-radius: 10px;
+
+}
+.cmd{
+    background: black;
+    width: 720px;
+    height: 780px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+.icone{
+    font-size: 22px;
+    left: 712px;
+    margin: auto;
+    position: absolute;
+    
+}
+.icone2{
+    font-size: 22px;
+    left: 680px;
+    margin: auto;
+    position: absolute;
+    
+}
+.icone3{
+    font-size: 22px;
+    left: 645px;
+    margin: auto;
+    position: absolute;
+    
+}
+.texto-estatico{
+    position: absolute;
+    left: 1180px;
+    z-index: 1;
+    color: white;
+    top: 100px;
+}
+
+    .container{
+        display: inline-block;
+    }
+
+    .text{
+    position: absolute;
+    left: 1330px;
+    letter-spacing: 1px;
+    z-index: 1;
+    color: white;
+    border-right: 5px solid;
+    top: 183.5px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 4s steps(31),
+    cursor .3s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{border-color: transparent}
+}
+@keyframes typing{
+    from { width: 0 }
+to {width: 335px};
+
+}
+.CMD{
+    position: absolute;
+    left:1162px;
+    top: 51.5px;
+    z-index: 1;
+}
+
+.IconCMD{
+    width: 30px;
+    height: 30px;
+}
