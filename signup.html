@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
+    <script src="js/validation.js" defer></script>
+
+    <title>Registro</title>
+</head>
+
+<h1>Teste_Registro</h1>
+
+<body>
+
+    <form action="process-signup.php" method="post" id ="signup" novalidate>
+        <div>
+            <input type = "text" id ="name" name = "name">
+            <span> Usuário </span> <br> <br>
+        </div>
+        <div>
+            <input type = "email" id ="email" name = "email">
+            <span> Email </span> <br> <br>
+        </div>
+        <div>
+            <input type = "password" id ="password" name = "password">
+            <span> Senha </span> <br><br>
+        </div>
+        <div>
+            <input type = "password" id ="confirmpassword" name = "confirmpassword">
+            <span> Confirme sua senha </span> <br> <br>
+        </div>
+
+        <button> Registrar </button>
+    </form>
+
+    <br>
+</body>
+</html>
